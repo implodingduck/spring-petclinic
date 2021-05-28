@@ -3,6 +3,12 @@
 * Working with Azure App Insights
 # MY NOTES
 
+* docker-compose build
+* docker-compose up -d
+* docker run -e PC_HOST=http://petclinic:8080 --rm -d --network spring-petclinic_petclinic petclinicselenium:latest
+    * See https://github.com/implodingduck/petclinic-selenium
+
+
 # Spring PetClinic Sample Application [![Build Status](https://travis-ci.org/spring-projects/spring-petclinic.png?branch=main)](https://travis-ci.org/spring-projects/spring-petclinic/)
 
 ## Understanding the Spring Petclinic application with a few diagrams
